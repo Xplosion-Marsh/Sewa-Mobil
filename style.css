@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --sejajar: flex;
+    --primary-color: #e5e718;
+    --secondary-color: #565151;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: var(--sejajar);
+    height: 60px;
+    justify-content: space-between;
+    padding: 5px 25px;
+    background-color: var(--secondary-color);
+}
+
+.text-icon {
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+.menu ul,
+.login-register ul {
+    display: var(--sejajar);
+    list-style: none;
+    font-size: 22px;
+}
+
+.menu ul li,
+.login-register ul li {
+    margin-right: 30px;
+    margin-top: 12px;
+    color: var(--primary-color);
+}
+
+.menu ul li a,
+.login-register ul li a {
+    color: var(--primary-color);
+}
+
+.menu ul li a:hover,
+.login-register ul li a:hover {
+    color: white;
+}
+
+.login-register {
+    margin-right: 50px;
+}
+
+.menu .active {
+    color: white;
+}
+
+
+/* Section Awal */
+
+.awal {
+    margin: 0 auto;
+    text-align: center;
+    height: 110vh;
+    background-color: var(--primary-color);
+}
+
+.container-awal {
+    padding: 50px 0;
+}
+
+.awal img {
+    height: 20%;
+    border: 1px solid var(--primary-color);
+}
+
+.container-awal button {
+    width: 30%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.container-awal h1 {
+    font-size: 55px;
+    font-weight: bolder;
+    margin: 6px 0;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
